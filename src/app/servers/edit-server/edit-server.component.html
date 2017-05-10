@@ -1,0 +1,8 @@
+<h4 *ngIf="!allowEdit">You are not allowed to edit</h4>
+
+<div class="row" *ngIf="allowEdit">
+  <div class="col-md-12">
+    {{ serverDetails.name }}
+    <a routerLink="/servers">Back to servers</a>
+  </div>
+</div>
