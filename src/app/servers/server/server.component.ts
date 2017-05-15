@@ -14,6 +14,7 @@ export class ServerComponent implements OnInit {
   }
 
   ngOnInit() {
+
     let serverid = this.Route.snapshot.params['id'];
     this.serverdetails = this.serverservice.getServer(serverid);
     this.Route.params.subscribe(

@@ -2,6 +2,6 @@
     <div class="col-md-12">
         <p>Server: {{ serverdetails.name }}</p>
         <a [routerLink]="['/servers', serverdetails.id, 'edit']"
-           [queryParams]="{allowedit: serverdetails.id == 1 ? '1' : '0'}">Edit Server</a>
+           [queryParams]="{allowedit: '1'}">Edit Server</a>
     </div>
 </div>

@@ -7,6 +7,8 @@ import {ServersComponent} from "./servers/servers.component";
 import {UserComponent} from "./users/user/user.component";
 import {UsersComponent} from "./users/users.component";
 import {HomeComponent} from "./home/home.component";
+import {AuthService} from "./auth.service";
+import {AuthGuard} from "./auth-guard.service";
 
 
 
